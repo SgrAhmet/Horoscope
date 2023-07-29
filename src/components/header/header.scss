@@ -1,0 +1,45 @@
+@import "../../scss/variables";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $darkOrange;
+    color: $black;
+    padding: 1rem;
+    border-bottom: 3px solid $black;
+    a{
+        color: $black;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid $darkOrange;  
+        
+        padding: .5rem;
+
+        &:hover{
+            color: $white;
+            // background-color: $black;
+            border-bottom: 2px solid $black;
+            border-top: 2px solid $black;
+            // border-radius: 5px;
+        }
+
+    
+        
+    }
+
+    .headerLeft{
+        p{
+            font-size: 30px;
+            font-weight: 900;
+            margin-left: 1rem
+            
+        };
+    }
+    .headerRight{
+       display: flex;
+       gap: 1.5rem;
+       margin-right: 1rem;
+    }
+}
